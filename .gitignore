@@ -1,0 +1,29 @@
+# Зависимости (библиотеки весят много, их не нужно грузить)
+node_modules/
+package-lock.json
+
+# Переменные окружения (САМОЕ ВАЖНОЕ: тут твои пароли)
+.env
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
+
+# Логи и отладочная информация
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+logs
+*.log
+npm-debug.log
+
+# Системные файлы операционных систем
+.DS_Store
+Thumbs.db
+
+# Папки редакторов кода (настройки VS Code и WebStorm)
+.vscode/
+.idea/
+
+# Railway (если будешь использовать их CLI)
+.railway/
